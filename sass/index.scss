@@ -258,6 +258,12 @@ body{
                 border: 0;
             }
 
+            &-box{
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+            }
+
             &-photo{
                 width: 200px;
                 height: 200px;
@@ -297,6 +303,16 @@ body{
                 &-507{
                     background-image: url('../images/507.png');
                 }
+
+                &-520{
+                    background-image: url('../images/520.png');
+                }
+            }
+
+            &-video{
+                width: 200px;
+                height: 356px;
+                margin: 0 auto;
             }
 
             &-content{
